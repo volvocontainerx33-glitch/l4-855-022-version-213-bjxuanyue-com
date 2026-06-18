@@ -1,16 +1,13 @@
-﻿# website-upload-855-022
+# 最新国产影片-最新影片合集-高清视频在线播放
 
-Batch 22 of 17. Contains extracted static website versions. The original zip files are not committed.
+本目录是生成完成的纯静态电影网站。
 
-| Directory | Source zip |
-| --- | --- |
-| version-211 | project-bolt-sb1-2vae14c1-chatgpt (2).zip |
-| version-212 | project-bolt-sb1-2vuasfam - 副本-chatgpt (1).zip |
-| version-213 | project-bolt-sb1-2vuasfam - 副本-chatgpt (2).zip |
-| version-214 | project-bolt-sb1-2vuasfam-chatgpt (1).zip |
-| version-215 | project-bolt-sb1-2vuasfam-chatgpt (1)__1.zip |
-| version-216 | project-bolt-sb1-2vuasfam-chatgpt (2).zip |
-| version-217 | project-bolt-sb1-2wggkzcu - 副本-chatgpt (1).zip |
-| version-218 | project-bolt-sb1-2wggkzcu - 副本-chatgpt (1)__1.zip |
-| version-219 | project-bolt-sb1-2wggkzcu - 副本-chatgpt (2).zip |
-| version-220 | project-bolt-sb1-2wggkzcu-chatgpt (1).zip |
+- 首页：index.html
+- 分类总览：categories.html
+- 排行榜：ranking.html
+- 搜索页：search.html
+- 分类页：category/*.html
+- 影片详情页：video/*.html
+- 影片数量：2000
+
+封面图片请放在网站根目录，文件名为 1.jpg 到 150.jpg。详情页播放器使用 m3u8 地址与本地 HLS 初始化脚本，建议通过本地静态服务器或线上服务器访问。
